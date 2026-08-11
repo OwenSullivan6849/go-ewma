@@ -2,10 +2,10 @@
 
 Streaming EWMA smoothing for metrics or prices — dependency-free.
 
-No dependencies, no service to run — just the standard library.
+Go Ewma uses only the go standard library; there is no service or dependency to install.
 
 ```
 ewma.go
 ```
 
-See the test next to the source for usage.
+Run the Go Ewma test next to the implementation for concrete examples.
