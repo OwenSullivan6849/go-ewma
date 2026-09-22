@@ -1,11 +1,11 @@
 # Exponential moving average
 
-Streaming EWMA smoothing for metrics or prices — dependency-free.
+Raw metric streams are noisy. An EWMA smooths this by weighting recent data heavier than older data. Picture a sudden spike. The trend line follows it up, but slower. You get a clean signal.
 
-Go Ewma uses only the go standard library; there is no service or dependency to install.
+This Go package processes streaming data on the fly. It is dependency-free. Go Ewma uses only the standard library.
 
 ```
 ewma.go
 ```
 
-Run the Go Ewma test next to the implementation for concrete examples.
+Check the test file next to the implementation for concrete examples.
